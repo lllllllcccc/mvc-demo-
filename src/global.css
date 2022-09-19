@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+}
+
+.page>section {
+    border: 1px solid green;
+    width: 50vw;
+    height: 50vh;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+#app4 .circle {
+    border: 1px solid gray;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    margin-top: 5vw;
+    margin-left: 10vw;
+
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+#app4 .circle.active {
+    animation: changeColor 300ms infinite alternate-reverse;
+}

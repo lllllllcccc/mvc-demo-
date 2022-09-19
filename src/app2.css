@@ -1,0 +1,23 @@
+#app2 .nav_bar {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+#app2 .nav_bar div {
+    border: 1px solid green;
+    width: 50vw;
+    text-align: center;
+}
+
+#app2 .nav_bar div.selected {
+    background-color: rgb(18, 217, 98);
+}
+
+#app2 .nav_content div {
+    display: none;
+}
+
+#app2 .nav_content div.active {
+    display: block;
+}
